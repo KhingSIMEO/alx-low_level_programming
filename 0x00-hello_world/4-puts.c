@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - A C Program that a new line with put function without printf, and ends with value 0
- * Return: 0 (Well Done Boy)
+ * main - C Program that prints a new line with put function
+ * Return: 0 (WellDone)
  */
 int main(void)
 {
