@@ -5,8 +5,10 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Entry point
+ * main - prints the last digit of a randomly generated number
  *
+ * and whether it is greater than 5, less than 6, or 0.
+ * 
  * Return: Always 0 (WellDONE)
  */
 int main(void)
@@ -18,6 +20,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
+	
 	m = n % 10;
 	if (m > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, m);
