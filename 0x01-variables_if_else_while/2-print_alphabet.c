@@ -4,6 +4,7 @@
  *
  * Return: Always 0 (WellDONE)
  */
+
 int main(void)
 {
 	char c;
