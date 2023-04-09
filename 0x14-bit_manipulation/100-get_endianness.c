@@ -1,6 +1,6 @@
 /*
- * File Name: 100-get_endianness.c
- * Code by: Ikenna Solomon Ejeagwu
+ * File: 100-get_endianness.c
+ * Author: Ikenna Solomon Ejeagwu
  */
 
 #include "main.h"
@@ -8,9 +8,8 @@
 /**
  * get_endianness - a function that checks the endianness.
  *
- * Returns: 0 - if its  big endian, 
- * 		1 - if its little endian
- *
+ * Returns: if big endian - 0.
+ * if little endian - 1.
  */
 
 int get_endianness(void)

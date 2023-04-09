@@ -3,7 +3,7 @@
 
 /*
  * File: main.h
- * Auth: Ikenna S. Ikenna
+ * Auth: Ikenna Solomon Ejeagwu
  * Desc: Header file containing prototypes for all functions
  *       written in the 0x14-bit_manipulation directory.
  */

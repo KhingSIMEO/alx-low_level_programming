@@ -1,6 +1,6 @@
 /*
- * FileName: 5-flip_bits.c
- * Written by: Ikenna Solomon Ejeagwu
+ * File: 5-flip_bits.c
+ * Author: Ikenna Solomon Ejeagwu
  */
 
 #include "main.h"

@@ -1,6 +1,6 @@
 /*
  * File: 0-binary_to_uint.c
- * Author: Ikenna S. EJEAGWU
+ * Author: Ikenna Solomon Ejeagwu
  */
 
 #include "main.h"
