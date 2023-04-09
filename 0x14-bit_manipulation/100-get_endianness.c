@@ -9,12 +9,12 @@
  * get_endianness - a function that checks the endianness.
  *
  * Returns: if big endian - 0.
- * if little endian - 1.
+ *	 if little endian - 1.
  */
 
 int get_endianness(void)
 {
-	int num = 1;
+	unsigned int num = 1;
 	char *endian = (char *)&num;
 
 	if (*endian == 1)
