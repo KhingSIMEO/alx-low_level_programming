@@ -14,20 +14,18 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	if (b == '\0')
+	int zen;
+	unsigned int num_val = 0;
+
+	if (!b)
 		return (0);
 
-	for (len = 0; b[len];)
-		len++;
-
-	for (len -= 1; len >= 0; len--)
+	for (zen = 0; b[zen]; zen++)
 	{
-		if (b[len] != '0' && b[len] != '1')
+		if (b[zen] < '0' || b[zen] > '1')
 			return (0);
 
-		num += (b[len] - '0') * mult;
-		mult *= 2;
+		num_val = 2 * num_val + (b[zen] - '0');
 	}
-
-	return (num);
+	return (num_val);
 }
