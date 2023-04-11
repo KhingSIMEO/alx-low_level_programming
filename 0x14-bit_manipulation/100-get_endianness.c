@@ -8,8 +8,7 @@
 /**
  * get_endianness - a function that checks the endianness.
  *
- * Returns: if big endian - 0.
- *	 if little endian - 1.
+ * Return: if big endian - 0, if little endian - 1.
  */
 int get_endianness(void)
 {
