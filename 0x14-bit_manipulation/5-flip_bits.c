@@ -1,13 +1,14 @@
 /*
  * File: 5-flip_bits.c
  * Author: Ikenna Solomon Ejeagwu
+ *
  */
 
 #include "main.h"
 
 /**
- * flip_bits - a function that returns the number of bits
- * 		 that flips from one number to another.
+ * flip_bits - a function that returns the
+ * number of bits that flips from one number to another.
  * @f: The number.
  * @m: The number to flip n to.
  *
